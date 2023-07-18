@@ -1,0 +1,177 @@
+
+.card-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+.navbar-brand img { /*Потолок размеры лого*/
+    width: 50px;
+    height: 50px;
+    color:white;
+}
+form input[type="text"] { /*потолок форма поиска */
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+form button[type="submit"] { /*потолок форма поиска*/
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.main-body {   /*основная главная страница*/
+    background-color: #d2d5d5;
+    display: flex;
+}
+
+.left-block{    /* левая основная часть главной страницы*/
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.card.mb-3 {  /*все блоки закругленые*/
+    border-radius: 10px;
+}
+
+.left-block-channel-name{  /*название рубрики левой основной страницы главной*/
+margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:none!important;
+}
+
+.left-main-thread{ /*блок тем в левой части основной страницы*/
+    margin-left: 5px;
+    margin-right: 5px;
+   /* margin-bottom: 5px;*/
+    /*margin-top: 10px;*/
+    border-top: 3px solid #d2d5d5;
+    border-radius: 0px;
+    /*border-bottom: 3px solid #343a40;*/
+
+}
+
+.left-main-thread-title{ /*название темы в левой части основной страницы*/
+    background-color:white!important;
+    border:none!important;
+}
+
+.left-main-thread-content {
+    padding: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: gray;
+    font-size: smaller;
+}
+
+.left-main-thread-title a { /*Текст ссылок черного цвета*/
+    color: black;
+}
+
+
+
+
+/*ПРАВАЯ ЧАСТЬ*/
+
+
+
+
+.main-right-body{  /*весь блок правой части*/
+     /*width: 30%!important;*/
+    margin-top: 30px;
+}
+
+.main-right-body-all{/*блок правый весь*/
+    display: flex;
+    flex-direction: row!important;
+    border-bottom: 1px solid #d2d5d5;
+}
+.main-right-body-data{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.main-right-body-title{ /*правый блок, верхняя часть,название*/
+    border-bottom: 3px solid #343a40;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.main-right-body-avatar{/*аватар правого блока*/
+    display: flex;
+    flex-direction: row;
+}
+.image-avatar{ /*аватар картинка*/
+    margin:auto;
+    margin-left: 5px;
+    width:40px;
+    height: 40px;
+    border-radius:40px;
+
+}
+
+.main-right-bottom{ /*правый блок, нижняя часть*/
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+
+.main-right-bottom-title{ /*правый блок, нижняя часть, название*/
+    border-bottom: 3px solid #343a40;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+
+}
+
+.main-right-bottom-text{ /*правый блок, нижняя часть, текст*/
+    border:none!important;
+}
+
+.main-right-bottom-threads{/*правый блок, нижняя часть, всего тем*/
+    border:none!important;
+}
+.main-right-bottom-threads-count{/*правый блок, нижняя часть, кл-во тем*/
+    border:none!important;
+}
+.main-right-bottom-reply{ /*правый блок, нижняя часть, всего сообщений*/
+    border:none!important;
+}
+
+.main-right-bottom-reply-count{/*правый блок, нижняя часть, кл-во сообщений*/
+    border:none!important;
+}
+
+
+
+
+.footer-left{  /*футер левая часть*/
+    margin-top: 20px;
+}
+
+
+.footer-right{ /*футер правая часть*/
+    margin-top: 20px;
+}
+
+
+.main-right-body-text a.body {
+    color: black;
+    font-weight: bold;
+}
+
+
